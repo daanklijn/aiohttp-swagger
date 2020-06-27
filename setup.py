@@ -54,13 +54,13 @@ class PyTest(TestCommand):
         raise SystemExit(errno)
 
 setup(
-    name='aiohttp-swagger',
-    version='1.0.14',
+    name='aiohttp-swagger-fix',
+    version='1.0.16',
     install_requires=required,
-    url='https://github.com/cr0hn/aiohttp-swagger',
+    url='https://github.com/daanklijn/aiohttp-swagger',
     license='BSD',
-    author='Daniel Garcia (cr0hn)',
-    author_email='cr0hn@cr0hn.com',
+    author='Daan Klijn',
+    author_email='daanklijn0@gmail.com',
     packages=find_packages(exclude=('tests',)),
     include_package_data=True,
     extras_require={
